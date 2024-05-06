@@ -1,0 +1,61 @@
+{
+  "nav": [
+    {
+      "nav_name": "How It Works",
+      "link": "/how-it-works",
+      "type": "",
+      "full_width": false,
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Core of QUDEX",
+      "link": "/core-of-qudex",
+      "type": "",
+      "full_width": false,
+      "sub_nav": []
+    },
+    {
+      "nav_name": "The Platform",
+      "link": "/the-platform",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Use Cases",
+      "link": "/use-cases",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Eco Score Card",
+      "link": "/eco-score-card",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "What Is QUDE™",
+      "link": "/what-is-qudex",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Land Partner",
+      "link": "/land-partner",
+      "type": "",
+      "sub_nav": [
+        {
+          "nav_name": "Benefits of Partnering",
+          "link": "/benefits-of-partnering"
+        },
+        {
+          "nav_name": "Process Involved",
+          "link": "/process-involved"
+        },
+        {
+          "nav_name": "Potential Outcomes",
+          "link": "/potential-outcomes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+/*----------------------------------------*/
+/*  35. login CSS START
+/*----------------------------------------*/
+
+.login-wrapper {
+  margin-top: 90px;
+
+  .login {
+    &__btm {
+      padding-top: 65px;
+
+      @media #{$sm} {
+        padding-top: 50px;
+      }
+    }
+
+    &__info {
+      padding-top: 15px;
+      padding-right: 60px;
+
+      @media #{$sm} {
+        padding-bottom: 50px;
+      }
+
+      h3 {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 1.2;
+        color: var(--black-2);
+        padding-bottom: 30px;
+      }
+
+      ul {
+        li {
+          a {
+            text-decoration-line: underline !important;
+          }
+
+          a,
+          span {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 1.5;
+            color: var(--black-2);
+            display: block;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    &__form {
+      @include zi(9);
+
+      input {
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--black-2);
+        border: none;
+        border-bottom: 1px solid var(--gray);
+        padding: 15px 0;
+        transition: all 0.3s;
+        outline: 0;
+        position: relative;
+        z-index: 1;
+        background: transparent;
+        margin-top: 35px;
+
+        @media #{$lg} {
+          padding: 10px 0;
+          margin-bottom: 25px;
+        }
+
+        @media #{$md} {
+          padding: 10px 0;
+          margin-bottom: 25px;
+        }
+
+        @media #{$sm} {
+          margin-bottom: 20px;
+        }
+
+        &:focus {
+          border-bottom: 1px solid var(--black-2);
+        }
+
+        &::placeholder {
+          color: var(--black-2);
+          opacity: 1;
+        }
+      }
+
+      #btn_wrapper,
+      .btn_wrapper {
+        margin-top: -20px;
+
+        @media #{$xl} {
+          margin-top: -10px;
+        }
+
+        @media (max-width: 1200px) {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+.signup-today {
+  margin-top: 35px;
+}

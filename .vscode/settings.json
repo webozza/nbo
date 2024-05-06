@@ -1,0 +1,6 @@
+{
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.settings.openDefaultSettings": true,
+  "editor.codeLensFontFamily": "default"
+}

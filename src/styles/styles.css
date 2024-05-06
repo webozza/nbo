@@ -1,0 +1,619 @@
+/* Hero */
+.qudex-hero .hero__title-6 {
+    font-size: 70px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: var(--black-2);
+    padding-bottom: 24px;
+}
+.qudex-hero .hero__content-6 {
+    padding-top: 160px;
+}
+.qudex-hero .hero__right-6 img {
+    max-width: 100%;
+}
+
+/* What Is Qudex CSS */
+.hero-earth img {
+    position: absolute;
+    top: 4%;
+    right: 15%;
+    animation: rightmove 3s infinite;
+}
+
+.about-p1 {
+    margin-bottom: 20px !important;
+}
+
+.about-p {
+    font-size: 20px !important;
+    text-indent: 0 !important;
+    margin-bottom: 15px !important;
+}
+
+.q-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container-q {
+    width: 89% !important;
+    margin: 0 auto;
+}
+
+.attribute-li li {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 54px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    list-style-type: disc !important;
+}
+
+.main-img img {
+    margin-top: 90px;
+}
+
+.attribute-imgs .image-tr-image .item {
+    width: 109px;
+    margin-top: 0;
+}
+
+.attribute-imgs .image-tr-image .item-2 {
+    margin-left: 67px;
+}
+
+.attribute-imgs .image-tr-image .item-3 {
+    margin-left: 130px;
+}
+.attribute-imgs .image-tr-image .item-4 {
+    margin-left: 67px;
+}
+
+.attribute-li li:nth-child(1) {
+    margin-top: 28px;
+    margin-left: -25%;
+}
+
+.attribute-li li:nth-child(2) {
+    margin-top: 70px;
+    margin-left: -10%;
+}
+
+.attribute-li li:nth-child(3) {
+    margin-top: 70px;
+    margin-left: 5%;
+}
+
+.attribute-li li:nth-child(4) {
+    margin-top: -6px;
+    margin-left: -10%;
+}
+
+.attribute-li li:nth-child(5) {
+    margin-top: -10px;
+    margin-left: -26%;
+}
+
+/* Bio Assets */
+.sub-title-bio {
+    font-size: 30px;
+}
+
+.bio-assets .polygon {
+    background-image: url(../../public/assets/imgs/qudex/polygon.png);
+    width: 137px;
+    height: 130px;
+    background-size: cover;
+    text-align: center;
+    margin-left: 47px;
+    position: relative;
+}
+
+.bio-assets .item {
+    position: relative;
+}
+
+.bio-assets .polygon .image {
+    width: 41px;
+    margin: 0 0 0 52px;
+    padding: 20px 0 10px;
+}
+
+.bio-assets h3 {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.15px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+
+.bio-assets p {
+    font-size: 12px;
+    letter-spacing: 0.15px;
+    line-height: 22px;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.bio-assets .item .line {
+    position: relative;
+    width: 0.5px;
+    height: 55px;
+    background: #2e53d746;
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    left: 140px;
+}
+
+.bio-assets .item .line .dots-absolute {
+    position: absolute;
+    bottom: 20px;
+    left: -20px;
+}
+
+.dots-relative {
+    position: relative;
+}
+
+.dots-2 {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    border-radius: 50%;
+    background: rgba(46,83,215,0.08);
+    opacity: 0.5;
+    border: 0.5px solid #2E53D7;
+}
+
+.dots-3 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #2E53D7;
+}
+
+.bio-assets .item .line-1 {
+    top: -7px;
+}
+
+.bio-assets .item .line-2 {
+    position: absolute;
+    top: 240px;
+    transform: rotate(40deg);
+    left: 108px;
+}
+
+.bio-assets .item .line .dots-absolute {
+    position: absolute;
+    bottom: 20px;
+    left: -20px;
+}
+
+.bio-assets .item .image-b {
+    width: 68px;
+    position: relative;
+}
+
+.bio-assets .item .image-b-1 {
+    left: 120px;
+    margin-top: 10px;
+}
+
+.bio-assets .item .image-b-2 {
+    left: 50px;
+    top: 45px;
+}
+
+.bio-assets .item .line-water {
+    -webkit-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    left: 120px;
+    top: -3px;
+    height: 50px;
+}
+
+.bio-assets .item .image-b-water {
+    left: 90px;
+    top: 15px;
+}
+
+.bio-assets .item .line-3 {
+    position: absolute;
+    top: 340px;
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+    left: 23px;
+    height: 70px;
+}
+
+.bio-assets .image-b-3 {
+    top: 80px;
+    left: -40px;
+}
+
+.bio-assets .item .line-4 {
+    position: absolute;
+    top: 340px;
+    -webkit-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    left: 143px;
+    height: 70px;
+}
+
+.bio-assets .image-b-4 {
+    top: 15px;
+    left: 140px;
+}
+
+/* Carbon Value */
+.carbon-value {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Business */
+.business-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-business {
+    line-height: 1.3;
+    max-width: 515px;
+    text-indent: 65px;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.business-img {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.business-img h3 {
+    width: 287px;
+}
+
+.regenerate {
+    width: 190px;
+}
+
+.regenerate img {
+    width: 100%;
+}
+
+.btn-wrapper, #btn_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.business-box .wc-btn-primary {
+    padding: 10px;
+}
+
+/* Blog Details */
+
+.detail-top {
+    margin-bottom: 85px;
+}
+
+/* Impact Directory */
+.impact-img img {
+    margin-left: 60px;
+}
+
+/* Featured Business */
+.featured-business-title {
+    font-size: 60px !important;
+}
+.featured-business-item {
+    background-color: #fdfdfd;
+    min-height: 544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.featured-business-item .star {
+    position: absolute;
+    width: 25px;
+    top: 45px;
+    right: 45px;
+}
+.featured-business-item .image {
+    width: 140px;
+    margin: 0 auto 55px;
+}
+.fea-business {
+    margin-left: 35px;
+}
+.bg-lock {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(18,29,68,0.2);
+    z-index: 99;
+    border-radius: 10px;
+}
+.background-black {
+    background-color: #272727;
+    padding: 60px 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.background-black .text:nth-child(2) {
+    height: 70px;
+    padding: 8px 10px;
+    margin: 0 20px;
+    border-left: solid 1px rgba(255,255,255,0.5);
+    border-right: solid 1px rgba(255,255,255,0.5);
+}
+.background-black-lock .image {
+    width: 21px;
+    margin: 0;
+}
+.background-black-lock {
+    padding: 82px 30px;
+}
+.background-black .text p {
+    color: #fff !important;
+    opacity: .5;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.background-black .text h3 {
+    color: #fff !important;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Footer */
+.qudex-copyright {
+    display: flex;
+    align-items: center;
+}
+.qudex-newslater .footer__subscribe {
+    border: 0;
+}
+.qudex-newslater p {
+    margin-top: 60px;
+}
+.qudex-footer .footer__btm-3 {
+    padding: 10px;
+}
+
+
+
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 767px)  {
+    .hero-earth img {
+        display: none;
+    }
+    /* Attributes */
+    .main-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-img img {
+        margin-top: 0;
+    }
+    .attribute-imgs .image-tr-image .item {
+        margin-top: 15px;
+    }
+    .attribute-imgs .image-tr-image .item-2,  .attribute-imgs .image-tr-image .item-3, .attribute-imgs .image-tr-image .item-4 {
+        margin-left: 0px; 
+    }
+    .attribute-li li:nth-child(1) {
+        margin-top: 48px;
+        margin-left: 0;
+    }
+    .attribute-li li:nth-child(2),  .attribute-li li:nth-child(3) {
+        margin-top: 60px;
+        margin-left: 0;
+    }
+    .attribute-li li:nth-child(4) {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .attribute-li li:nth-child(5) {
+        margin-top: -15px;
+        margin-left: 0;
+    }
+    /* Bio Assets */
+    .bio-assets .item .polygon {
+        margin: 0 0 30px;
+    }
+    .bio-assets .item .line-1 {
+        top: 10px;
+        left: 48px;
+        height: 110px;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .bio-assets .item .line .dots-absolute {
+        display: none;
+    }
+    .bio-assets .item .line-2 {
+        display: none;
+    }
+   .bio-assets .item .image-b-1 {
+        left: 0;
+        margin-top: 30px;
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+    .bio-assets .item .image-b-2 {
+        left: 0;
+        top: 0;
+        margin-top: 30px;
+    }
+    .bio-assets .item .image-b-water {
+        left: 0;
+        top: 0;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .bio-assets .item .line-water {
+        top: 40px;
+        left: 18px;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .bio-assets .item .image-b-climate-2 {
+        margin-top: -40px;
+    }
+    .bio-assets .item .image-b-3 {
+        left: 0;
+        top: 30px;
+    }
+    .bio-assets .item .line-climate-2 {
+        display: block;
+        height: 60px;
+        left: 210px;
+        top: 10px;
+    }
+    .bio-assets .item .line-climate-3 {
+        display: block;
+        height: 50px;
+        left: 295px;
+        top: 10px;
+        transform: rotate(-40deg);
+    }
+    .bio-assets .item .line-climate-1 {
+        height: 31px;
+        left: 10px;
+        top: 55px;
+    }
+    .bio-assets .item .image-b-wildlife-1 {
+        margin-right: 0;
+    }
+    .bio-assets .item .image-b-wildlife-2 {
+        margin-right: 0;
+        top: 50px;
+    }
+    .bio-assets .item .image-b-wildlife-3 {
+        margin-right: 0;
+        position: absolute;
+        left: 147px;
+        top: 140px;
+    }
+    .bio-assets .item .image-b-wildlife-4 {
+        margin-right: 0;
+        position: absolute;
+        top: 140px;
+        left: 275px;
+    }
+    .bio-assets .item .line-wildlife-2 {
+        display: block;
+        height: 40px;
+        left: 225px;
+        top: 65px;
+        -webkit-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+        transform: rotate(-60deg);
+    }
+    .bio-assets .item .line-wildlife-3 {
+        display: block;
+        height: 40px;
+        left: 225px;
+        top: 125px;
+        -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+    .bio-assets .item .line-wildlife-4 {
+        display: block;
+        height: 40px;
+        left: 275px;
+        top: 125px;
+        -webkit-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+        transform: rotate(-60deg);
+    }
+    .bio-assets .item .line-wildlife-1 {
+        height: 30px;
+        left: 8px;
+        top: 50px;
+    }
+    /* Carbon Value */
+    .carbon-value img {
+        width: 35% !important;
+        height: auto;
+    }
+    /* Business */
+    .regenerate {
+        display: none;
+    }
+    .business-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        gap: 30px;
+    }
+    
+    .business-img img {
+        width: 135px;
+        height: auto;
+    }
+    /* Blog details */
+    .detail-top {
+        margin-bottom: 0px;
+    }
+    .blog__detail-thumb {
+        height: 40vh !important;
+    }
+    /* Impact Directory */
+    .impact-img img {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    /* Featured Business */
+    .featured-business-title {
+        font-size: 32px !important;
+        padding-top: 0 !important;
+    }
+    .fea-business {
+        margin-left: 0px;
+    }
+    .featured-business-item {
+        margin: 0 17px;
+    }
+   
+}

@@ -1,0 +1,44 @@
+/*----------------------------------------*/
+/*  31. FAQ CSS START
+/*----------------------------------------*/
+
+.common {
+  &__btn {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+    .pb-130 {
+      @media #{$lg} {
+        padding-bottom: 120px;
+      }
+
+      @media #{$md} {
+        padding-bottom: 120px;
+      }
+    }
+
+    p {
+      padding-top: 15px;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    a {
+      margin: 0 auto;
+      margin-top: 60px;
+
+      @media #{$sm} {
+        margin-top: 0;
+      }
+    }
+
+    .btn_wrapper {
+      margin: 0 auto;
+
+      @media #{$sm} {
+        margin-top: 40px;
+      }
+    }
+  }
+}
