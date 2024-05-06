@@ -11,3 +11,7 @@ export const ConnectDB = async () => {
     console.log("Error While Connecting!", err);
   }
 };
+
+export default function ConnectPage() {
+  return null;
+}
